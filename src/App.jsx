@@ -1,33 +1,64 @@
-import { useState } from 'react'
+import { Suspense, useState, lazy } from 'react'
 import reactLogo from './assets/react.svg'
+import Header from './components/header/Header'
 import './App.css'
+import {HashRouter , BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import 'aos/dist/aos.css'
+import Loader from './components/Loader/Loader'
+
+
+const Home = lazy(() => {
+  return Promise.all([
+    import("./pages/Home"),
+    new Promise(resolve => setTimeout(resolve, 1000))
+  ])
+    .then(([moduleExports]) => moduleExports);
+});
+const Legal = lazy(() => {
+  return Promise.all([
+    import("./components/legal/Legal"),
+    new Promise(resolve => setTimeout(resolve, 1000))
+  ])
+    .then(([moduleExports]) => moduleExports);
+});
+const Privacy = lazy(() => {
+  return Promise.all([
+    import('./components/privacy/Privacy'),
+    new Promise(resolve => setTimeout(resolve, 1000))
+  ])
+    .then(([moduleExports]) => moduleExports);
+});
+const Cygna = lazy(() => {
+  return Promise.all([
+    import("./pages/Cygna"),
+    new Promise(resolve => setTimeout(resolve, 1000))
+  ])
+    .then(([moduleExports]) => moduleExports);
+});
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    <HashRouter  >
+
+
+      <Suspense fallback={<Loader />}>
+        <div className="layout">
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path='/home' element={<Home />} />
+            <Route path='/Cygna-partenaire' element={<Cygna />} />
+            <Route path='/Politique-de-confidentialité' element={<Privacy />} />
+            <Route path='/Mentions-légales' element={<Legal />} />
+          </Routes>
+        </div>
+      </Suspense>
+
+
+    </HashRouter>
+
   )
 }
 

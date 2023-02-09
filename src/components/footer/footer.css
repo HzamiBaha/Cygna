@@ -1,0 +1,262 @@
+.footer-wrap{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.footer {
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-around;
+}
+
+.footer-navigation__links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0;
+}
+
+
+.nav__item {
+    width: 200px;
+    text-align: left;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+}
+
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 41px;
+}
+
+
+.footer-navigation__title {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 105%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.footer-Newsletter__title,
+.footer-contact__title {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 105%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer-contact__info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+
+.mail,
+.tel,
+.adresse {
+    width: 200px;
+    text-align: left;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.footer-Newsletter__info {
+
+    text-align: left;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.footer-contact,
+.footer-navigation {
+    height: 252px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 252px;
+    max-width: 250px;
+}
+
+.mail-input {
+
+
+    height: 42px;
+    padding-left: 20px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.mail-submit {
+
+
+    height: 45px;
+
+    border: none;
+    background: #FDEF97;
+    border-radius: 5px;
+}
+
+.newsletter_form {
+    display: flex;
+    gap: 7px;
+}
+.legal{
+    width: 230px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+
+    color: rgb(65, 7, 159);
+}
+.legal-devider{
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    color: rgb(65, 7, 159);
+}
+.legal-links{
+    display: flex;
+    justify-content: center;
+}
+.copyrights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+/* small devices */
+@media screen and (max-width: 750px) {
+
+    .footer-contact,
+    .footer-navigation {
+        height: 170px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-right {
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .footer-navigation__title,
+    .footer-Newsletter__title,
+    .footer-contact__title {
+        font-size: 20px;
+    }
+    .nav__item {
+       width: 150px;
+    }
+    .mail, .tel, .adresse {
+        width: 150px;
+      
+    }
+    .newsletter_form {
+        display: flex;
+        gap: 7px;
+        flex-direction: column;
+    }
+    .footer-right {
+        max-width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .footer {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        justify-content: space-around;
+        gap: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .nav__item {
+        width: 200px;
+     }
+     .mail, .tel, .adresse {
+         width: 200px;
+       
+     }
+     .footer-right {
+        justify-content: space-between;
+        height: 300px;
+    }
+    .legal-links {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

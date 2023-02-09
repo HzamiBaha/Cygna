@@ -1,0 +1,159 @@
+.sagex3 {
+    scroll-margin-top: 90px;
+    height: max-content;
+    background: linear-gradient(180deg, #0E171B 0%, #1B272E 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sagex3-title {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 38px !important;
+    color: #FFFFFF;
+}
+
+.sagex3-sub {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    line-height: 146%;
+    /* or 37px */
+    color: #ADFF98;
+
+}
+
+.sagex3-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    /* or 28px */
+    width: 70%;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.sagex3-devider {
+    width: 202px;
+    height: 10px;
+    margin-top: 35px;
+    background: #ADFF98;
+}
+
+.step-number {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    -webkit-text-stroke: 1px #9AE38A
+}
+
+.step-content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    width: 232px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.sagex3-step {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.sagex3-lines {
+    position: absolute;
+}
+
+.sagex3-lower_section {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 52px;
+}
+
+.sagex3-upper_section {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* medium devices */
+@media screen and (max-width: 1400px) {
+    .sagex3-desc {
+        width: 85%;
+        font-weight: 400;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .sagex3-lower_section {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 52px;
+    }
+
+    .sagex3-lines {
+        position: absolute;
+        margin-top: 350px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .sagex3-lower_section {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 52px;
+    }
+
+    .sagex3-step {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .sagex3-title {
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .sagex3-lines {
+        position: absolute;
+        width: 0;
+    }
+    .sagex3-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 32px !important;
+        color: #FFFFFF;
+    }
+
+}

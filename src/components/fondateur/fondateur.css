@@ -1,0 +1,171 @@
+.fondateur {
+    scroll-margin-top: 200px;
+    height: max-content;
+}
+
+.fondateur-title {
+    margin-top: 70px;
+}
+
+.fondateur-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    /* or 22px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1B272E;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 55px;
+}
+
+.fondateur-cards {
+    margin: auto;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.card {
+    width: 600px;
+    display: flex;
+    gap: 25px;
+    background: #FDEF97;
+    border-radius: 33px;
+}
+
+.name {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 105%;
+    /* or 25px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #41079F;
+    margin: auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.icon {
+    color: #41079F;
+    margin-right: 20px;
+}
+
+.fondateur-subtitle {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 105%;
+    color: #41079F;
+}
+
+.fondateur-caption {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 125%;
+    /* or 18px */
+
+    text-align: left;
+    color: #000000;
+}
+
+.fondateur-card__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.fondateur-cards {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+/* ============== BREAKPOINTS ==============*/
+/* large devices */
+@media screen and (max-width: 1110px) {
+    .fondateur-cards {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .fondateur-desc {
+        width: 85%;
+        font-weight: 400;
+        font-size: 16px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+}
+
+/* medium devices */
+@media screen and (max-width: 990px) {}
+
+/* small devices */
+
+
+@media screen and (max-width: 750px) {
+    .card {
+        width: 80%;
+    }
+
+    .name {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .fondateur-subtitle {
+        font-size: 16px;
+    }
+
+    .fondateur-caption {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .icon {
+        color: #41079F;
+         margin-right: unset;
+    }
+    .image{
+        width: 40%;
+    }
+    .fondateur-desc {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .fondateur-subtitle {
+        text-align: left;
+    }
+    .card {
+        width: 50%;
+        flex-direction: column;
+    }
+    .image {
+        width: 100%;
+    }
+}

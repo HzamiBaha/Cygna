@@ -1,0 +1,133 @@
+.services {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.services-title {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px !important;
+    line-height: 146%;
+    /* identical to box height, or 44px */
+
+    text-transform: uppercase;
+
+    color: #85D072;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: 390px 390px 390px;
+    gap: 69px;
+    margin: 90px auto;
+}
+
+.services-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    /* or 28px */
+    width: 70%;
+    margin: auto;
+    color: #000000;
+}
+
+.services-item {
+    width: 390px;
+    height: 231px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: fit-content;
+    margin: auto;
+    width: 80%;
+}
+
+.dot {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #95E681;
+}
+
+.desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+/* medium devices */
+@media screen and (max-width: 1300px) {
+
+    .services-container {
+        display: grid;
+        grid-template-columns: 390px 390px;
+        gap: 69px;
+        margin: 90px auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .services-item {
+        width: 320px;
+    }
+
+    .services-container {
+        display: grid;
+        grid-template-columns: 320px 320px;
+        gap: 20px;
+        margin: 90px auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .services-item {
+        width: 320px;
+    }
+
+    .services-container {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        margin: 90px auto;
+    }
+
+    .services-title {
+            width: 80%;
+            margin: 20px auto;
+    }
+}
+@media screen and (max-width: 450px) {
+
+    .services-title {
+        font-family: 'League Spartan';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 29px !important;
+        line-height: 146%;
+        text-transform: uppercase;
+        color: #85D072;
+    }
+}

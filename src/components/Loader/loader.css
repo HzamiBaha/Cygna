@@ -1,0 +1,9 @@
+.loader-background{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #1C282F 0%, #1C272E 100%);
+    opacity: 1;
+}

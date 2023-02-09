@@ -1,0 +1,63 @@
+.sage-cta {
+    background: linear-gradient(180deg, #0E171B 0%, #1C282F 100%);
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-title {
+    margin: 0;
+    color: white;
+}
+
+.cta-desc {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    text-transform: uppercase;
+
+    color: #ADFF98;
+}
+
+.cta-button,
+.cta-button :hover {
+    background: linear-gradient(180deg, #0E171B 0%, #1B272E 100%) padding-box,
+        linear-gradient(90.87deg, #F4E9AF -1.66%, #DC8BED 106.33%) border-box;
+    border: 3px solid transparent !important;
+    border-radius: 15px;
+    width: 306px;
+    height: 50px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.button-text,
+.button-text:hover {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    background: linear-gradient(90.87deg, #F4E9AF -1.66%, #DC8BED 106.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@media screen and (max-width: 600px) {
+    .sage-cta {
+        background: linear-gradient(180deg, #0E171B 0%, #1C282F 100%);
+        display: flex;
+        padding: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+}

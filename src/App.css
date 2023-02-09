@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
 }
 
@@ -10,19 +13,65 @@
   padding: 1.5em;
   will-change: filter;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.layout {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  background-color: white;
+}
+
+.floating-button {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background: #ADFF98;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 2px solid;
+  display: flex;
+  border: none;
+  -webkit-animation: bounce-2 ease;
+  animation: bounce-2 ease;
+}
+
+.floating-button:hover {
+  border: 2px solid black;
+}
+
+@-webkit-keyframes bounce-2 {
+  0% {
+    transform: translateY(0);
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce-2 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -38,4 +87,28 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+
+.h6 {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 41px;
+  }
+
 }

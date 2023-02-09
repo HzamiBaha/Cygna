@@ -1,0 +1,122 @@
+.rejoindre {
+    scroll-margin-top: 90px;
+    height: max-content;
+    background: linear-gradient(180deg, #0E171B 0%, #1B272E 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.rejoindre-title {
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.rejoindre-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    /* or 22px */
+    width: 991px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rejoindre-lower_section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+.rejoindre-upper_section {
+    margin-bottom: 50px;
+}
+
+.offre {
+
+    width: 80%;
+    margin: auto;
+    height: max-content;
+    background: linear-gradient(180deg, #0E171B 0%, #1B272E 100%) padding-box,
+        linear-gradient(90.87deg, #F4E9AF -1.66%, #DC8BED 106.33%) border-box;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 62px;
+    gap: 19px;
+}
+
+.offre-title {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 105%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: linear-gradient(90.87deg, #F4E9AF -1.66%, #DC8BED 106.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.offre-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 105%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    text-align: left;
+}
+
+/* medium devices */
+@media screen and (max-width: 1100px) {
+    .rejoindre-desc {
+        width: 85%;
+        font-weight: 400;
+        font-size: 16px;
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .offre {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .rejoindre-desc {
+        font-size: 14px;
+    }
+    .offre{padding: 20px;}
+}
+
+

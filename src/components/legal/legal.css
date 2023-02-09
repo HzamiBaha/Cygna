@@ -1,0 +1,66 @@
+.privacy {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #1B272E;
+    margin-bottom: 20px;
+}
+.subtitle{
+    color: #1B272E;
+}
+.bullets {
+    margin-left: 20px;
+}
+
+.email{
+    width: 200px;
+    text-align: left;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    color: #691be6;
+    margin-bottom: 20px;
+}
+.email:hover{
+    color: #460aa7 !important;
+}
+@media screen and (max-width: 600px) {
+
+    .desc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        color: #1B272E;
+        margin-bottom: 20px;
+    }
+    .subtitle{
+        color: #1B272E;
+        text-align: left;
+        font-size: 500 !important;
+    }
+    .privacy-title{
+        text-align: left;
+    }
+}
