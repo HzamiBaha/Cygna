@@ -13,7 +13,7 @@ const Fondateur = () => {
     return (
         <div className="fondateur" id='fondateur'>
             <h2 data-aos="fade-up" className="fondateur-title">Nos Fondateurs</h2>
-            <p  data-aos="fade-up" className="fondateur-desc">
+            <p data-aos="fade-up" className="fondateur-desc">
                 En mars 2020, Ahmed et Nawel ont fondé CYGNA avec pour ambition de faire converger leurs compétences respectives et de développer leur équipe et leur portée internationale. Cette entreprise est née de la transformation de leurs aspirations en un projet concret. Ils étaient animés par le désir de révolutionner la façon d'intégrer les systèmes, la vision de placer le client au centre de toutes les préoccupations de l'entreprise et la volonté d'apporter leur propre approche entrepreneuriale et d'impliquer leur équipe dans les décisions stratégiques de l'entreprise.                </p>
             <div className="fondateur-cards">
                 <div data-aos="fade-up-right" className="card">
@@ -22,8 +22,12 @@ const Fondateur = () => {
                         <div className="title">
                             <h4 className="name">Ahmed CHAKROUN </h4>
                             <div className="links">
-                                <LinkedInIcon className='icon'></LinkedInIcon>
-                                <MailOutlineIcon className='icon'></MailOutlineIcon>
+                                <a href="http://www.linkedin.com/in/ahmed-chakroun-b73b321b/">
+                                    <LinkedInIcon className='icon'></LinkedInIcon>
+                                </a>
+                                <a href="mailto:ahmed.chakroun@cygna.fr">
+                                    <MailOutlineIcon className='icon'></MailOutlineIcon>
+                                </a>
                             </div>
                         </div>
                         <div className="fondateur-subtitle">
@@ -40,8 +44,12 @@ const Fondateur = () => {
                         <div className="title">
                             <h4 className="name">Nawel CHAKROUN </h4>
                             <div className="links">
-                                <LinkedInIcon className='icon'></LinkedInIcon>
-                                <MailOutlineIcon className='icon'></MailOutlineIcon>
+                            <a href=" https://www.linkedin.com/in/nawel-zgolli-chakroun-0094205a/">
+                                    <LinkedInIcon className='icon'></LinkedInIcon>
+                                </a>
+                                <a href="mailto:nawel.chakroun@cygna.fr">
+                                    <MailOutlineIcon className='icon'></MailOutlineIcon>
+                                </a>
                             </div>
                         </div>
                         <div className="fondateur-subtitle">

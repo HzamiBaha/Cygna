@@ -5,6 +5,7 @@ import triangle1 from "../../assets/triangle-1.webp";
 import triangle2 from "../../assets/triangle-2.webp";
 import triangle3 from "../../assets/triangle-3.webp";
 import triangle4 from "../../assets/triangle-4.webp";
+import badge from "../../assets/sage_Partner-Black.webp";
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 
@@ -18,9 +19,8 @@ const Hero = () => {
 
             <div className="hero-background" />
             <h1 className='hero-title'>
-                On libère le potentiel de votre entreprise
-            </h1>
-            <h4 data-aos="fade-up" className='hero-desc'> partenaires SAGE depuis 2021 </h4>
+                Libérez le plein potentiel de votre entreprise            </h1>
+            <img src={badge} data-aos="fade-up" height={48} className="hero-desc" />
             <div className="triangles">
                 <img src={triangle1} data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
@@ -65,9 +65,6 @@ const Hero = () => {
                             Ayez un pas d’avance sur la prise de décisions grâce aux solutions intelligentes, agiles et flexibles conseillées par nos experts.
                         </div>
                     </div>
-
-
-
                     <div data-aos="flip-up" className="item" style={{ background: "#ADFF98" }}>
                         <div className="icon-container" style={{ background: "#85D072" }}>
 
@@ -78,8 +75,8 @@ const Hero = () => {
                         <div className="item-desc">
                             Nous repensons votre stratégie cybersécurité pour faire évoluer vos projets d’innovation technologiques en toute sérénité.                        </div>
                     </div>
-                    <div data-aos="flip-up" className="item" style={{ background: "#98FFEE" }}>
-                        <div className="icon-container" style={{ background: "#6FC5B7" }}>
+                    <div data-aos="flip-up" className="item" style={{ background: "rgb(207, 182, 236)" }}>
+                        <div className="icon-container" style={{ background: "rgb(149 98 209)" }}>
 
                         </div>
                         <div className="item-title">

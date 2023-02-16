@@ -44,7 +44,14 @@
 .rejoindre-upper_section {
     margin-bottom: 50px;
 }
-
+.offre-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.postuler{
+    display: none;
+}
 .offre {
 
     width: 80%;

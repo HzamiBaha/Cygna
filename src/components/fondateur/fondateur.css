@@ -7,6 +7,10 @@
     margin-top: 70px;
 }
 
+.image {
+    border-radius: 10px;
+}
+
 .fondateur-desc {
     font-family: 'Poppins';
     font-style: normal;
@@ -145,13 +149,16 @@
         margin-top: 10px;
         font-size: 12px;
     }
+
     .icon {
         color: #41079F;
-         margin-right: unset;
+        margin-right: unset;
     }
-    .image{
+
+    .image {
         width: 40%;
     }
+
     .fondateur-desc {
         font-size: 14px;
     }
@@ -161,10 +168,12 @@
     .fondateur-subtitle {
         text-align: left;
     }
+
     .card {
         width: 50%;
         flex-direction: column;
     }
+
     .image {
         width: 100%;
     }

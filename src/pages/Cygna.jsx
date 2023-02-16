@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../components/footer/Footer'
-import Header from '../components/header/Header'
+import Header from '../components/headerSage/Header'
 import SageCta from '../components/sageCta/SageCta'
 import SageHero from '../components/sageHero/SageHero'
 import SageInfo from '../components/sageInfo/SageInfo'

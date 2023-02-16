@@ -17,10 +17,14 @@ const Rejoindre = () => {
             </div>
 
             <div className="rejoindre-lower_section">
-                <div data-aos="flip-down"  data-aos-duration="3000" className="offre">
-                    <div className="offre-title">
-                        Ingénieur Full stack JAVA/Angular
+                <div data-aos="flip-down" data-aos-duration="3000" className="offre">
+                    <div className="offre-header">
+                        <div className="offre-title">
+                            Ingénieur Full stack JAVA/Angular
+                        </div>
+                        <button className='postuler'> postuler </button>
                     </div>
+
                     <div className="offre-desc">
                         Nous recherchons activement plusieurs ingénieurs Back-end ou Full-stack JAVA/Angular pour rejoindre notre expertise conseils IT.
                         pour travailler sur des projets from scratch et accompagner nos clients dans leurs projets de transformation.
@@ -30,9 +34,13 @@ const Rejoindre = () => {
                         Communauté Java, manifestez-vous !
                     </div>
                 </div>
-                <div data-aos="flip-down"  data-aos-duration="3000" className="offre">
-                    <div className="offre-title">
-                        Tech Lead Senior Big Data
+                <div data-aos="flip-down" data-aos-duration="3000" className="offre">
+
+                    <div className="offre-header">
+                        <div className="offre-title">
+                            Tech Lead Senior Big Data
+                        </div>
+                        <button className='postuler'> postuler </button>
                     </div>
                     <div className="offre-desc">
                         Rejoignez notre équipe passionnée par la Data !
@@ -44,9 +52,12 @@ const Rejoindre = () => {
                         N'hésitez pas à nous contacter !
                     </div>
                 </div>
-                <div data-aos="flip-down"  data-aos-duration="3000" className="offre">
-                    <div className="offre-title">
-                        Ingénieur Machine Learning
+                <div data-aos="flip-down" data-aos-duration="3000" className="offre">
+                    <div className="offre-header">
+                        <div className="offre-title">
+                            Ingénieur Machine Learning
+                        </div>
+                        <button className='postuler'> postuler </button>
                     </div>
                     <div className="offre-desc">
                         Dans le cadre de l'accélération de notre activité, nous recherchons un ingénieur Machine Learning pour intervenir sur une mission dans le secteur financier. Vous aimez les algorithmes, la finance et l'innovation ?

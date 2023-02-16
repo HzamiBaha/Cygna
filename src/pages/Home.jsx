@@ -18,9 +18,7 @@ const Home = () => {
             <Rejoindre />
             <Fondateur />
             <Footer background="rgb(207, 182, 236)" color="#41079F" icon="#FDEF97" button="#41079F" />
-            <Link to={"/Cygna-partenaire"} className="floating-button">
-                <img src={sage} alt=""width={"50px"} />
-            </Link>
+
         </>
     )
 }
