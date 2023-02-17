@@ -1,0 +1,98 @@
+.hero {
+    display: flex;
+    width: 100%;
+    height: 900px;
+    background: linear-gradient(180deg, #1B272E 0%, #0D161A 100%);
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    overflow-x: clip;
+}
+
+
+
+.hero-background {
+    position: absolute;
+    display: flex;
+    align-self: center;
+    z-index: 1;
+    background-image: url(/src/assets/lines-background.webp);
+    width: 960px;
+    height: 100%;
+}
+
+.blog-image {
+    margin-top: 50px;
+    z-index: 10;
+    width: 1330px;
+    height: 663px;
+    background-size: cover;
+    background-image: linear-gradient(187.36deg, rgba(0, 0, 0, 0) 12.38%, rgba(0, 0, 0, 0.62) 65.49%), url('../../../assets/blog.webp');
+    border: 10px solid #EBEBEB;
+    border-radius: 30px;
+    display: flex;
+    align-items: end;
+
+}
+
+.blog-content {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 20px auto;
+    justify-content: space-between;
+
+}
+.blog-button{
+    background-color: transparent;
+}
+.blog-title {
+    color: white;
+    text-align: left ;
+}
+
+.blog-ticket {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 105%;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+.desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #fff;
+    width: 80%;
+}
+
+
+/* ============== BREAKPOINTS ==============*/
+/* large devices */
+@media screen and (max-width: 1100px) {
+    .hero {
+        height: 1000px;
+    }
+
+}
+
+/* medium devices */
+@media screen and (max-width: 900px) {}
+
+/* small devices */
+@media screen and (max-width: 750px) {}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 450px) {}

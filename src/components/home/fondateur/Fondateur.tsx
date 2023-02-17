@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import "./fondateur.css";
-import ahmed from "../../assets/ahmed.webp";
-import nawel from "../../assets/nawel.webp";
+import ahmed from "../../../assets/ahmed.webp";
+import nawel from "../../../assets/nawel.webp";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import AOS from 'aos';

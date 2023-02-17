@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Hero from '../components/hero/Hero'
-import About from '../components/about/About'
-import Rejoindre from '../components/rejoindre/Rejoindre'
-import Fondateur from '../components/fondateur/Fondateur'
-import Footer from '../components/footer/Footer'
-import Header from '../components/header/Header'
+import Hero from '../components/home/hero/Hero'
+import About from '../components/home/about/About'
+import Rejoindre from '../components/home/rejoindre/Rejoindre'
+import Fondateur from '../components/home/fondateur/Fondateur'
+import Footer from '../components/common/footer/Footer'
+import Header from '../components/home/header/Header'
 import { Link } from 'react-router-dom'
 import sage from "../assets/Sage-logo.webp"
 

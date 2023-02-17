@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import "./sageHero.css";
-import background from "../../assets/sage-image.webp";
-import badge from "../../assets/sage_Partner.webp";
+import background from "../../../assets/sage-image.webp";
+import badge from "../../../assets/sage_Partner.webp";
 import AOS from 'aos';
 
 const SageHero = () => {

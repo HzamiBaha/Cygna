@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react'
 import "./hero.css";
-import background from "../../assets/lines-background.webp";
-import triangle1 from "../../assets/triangle-1.webp";
-import triangle2 from "../../assets/triangle-2.webp";
-import triangle3 from "../../assets/triangle-3.webp";
-import triangle4 from "../../assets/triangle-4.webp";
-import badge from "../../assets/sage_Partner-Black.webp";
+import triangle1 from "../../../assets/triangle-1.webp";
+import triangle2 from "../../../assets/triangle-2.webp";
+import triangle3 from "../../../assets/triangle-3.webp";
+import triangle4 from "../../../assets/triangle-4.webp";
+import badge from "../../../assets/sage_Partner-Black.webp";
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 

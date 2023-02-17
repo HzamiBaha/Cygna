@@ -1,11 +1,11 @@
 import React from 'react'
-import Footer from '../components/footer/Footer'
-import Header from '../components/headerSage/Header'
-import SageCta from '../components/sageCta/SageCta'
-import SageHero from '../components/sageHero/SageHero'
-import SageInfo from '../components/sageInfo/SageInfo'
-import Sagex3 from '../components/sagex3/Sagex3'
-import Services from '../components/services/Services'
+import Footer from '../components/common/footer/Footer'
+import Header from '../components/Sage/headerSage/Header'
+import SageCta from '../components/Sage/sageCta/SageCta'
+import SageHero from '../components/sage/sageHero/SageHero'
+import SageInfo from '../components/sage/sageInfo/SageInfo'
+import Sagex3 from '../components/sage/sagex3/Sagex3'
+import Services from '../components/Sage/services/Services'
 
 const Cygna = () => {
     return (

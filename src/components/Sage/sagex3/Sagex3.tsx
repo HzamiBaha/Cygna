@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import "./sagex3.css";
-import lines from "../../assets/sagex3-lines.webp";
+import lines from "../../../assets/sagex3-lines.webp";
 import AOS from 'aos';
 
 const Sagex3 = () => {

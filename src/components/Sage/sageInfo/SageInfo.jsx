@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import image1 from "../../assets/sage-info1.webp";
-import image2 from "../../assets/sage-info2.webp";
-import image3 from "../../assets/sage-info3.webp";
+import image1 from "../../../assets/sage-info1.webp";
+import image2 from "../../../assets/sage-info2.webp";
+import image3 from "../../../assets/sage-info3.webp";
 import "./sageInfo.css";
 
 import AOS from 'aos';

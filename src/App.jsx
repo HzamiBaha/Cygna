@@ -1,10 +1,9 @@
 import { Suspense, useState, lazy } from 'react'
-import reactLogo from './assets/react.svg'
-import Header from './components/header/Header'
+
 import './App.css'
-import {HashRouter , BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import 'aos/dist/aos.css'
-import Loader from './components/Loader/Loader'
+import Loader from './components/common/Loader/Loader'
 
 
 const Home = lazy(() => {
@@ -16,14 +15,14 @@ const Home = lazy(() => {
 });
 const Legal = lazy(() => {
   return Promise.all([
-    import("./components/legal/Legal"),
+    import("./components/common/legal/Legal"),
     new Promise(resolve => setTimeout(resolve, 1000))
   ])
     .then(([moduleExports]) => moduleExports);
 });
 const Privacy = lazy(() => {
   return Promise.all([
-    import('./components/privacy/Privacy'),
+    import('./components/common/privacy/Privacy'),
     new Promise(resolve => setTimeout(resolve, 1000))
   ])
     .then(([moduleExports]) => moduleExports);
@@ -31,6 +30,20 @@ const Privacy = lazy(() => {
 const Cygna = lazy(() => {
   return Promise.all([
     import("./pages/Cygna"),
+    new Promise(resolve => setTimeout(resolve, 1000))
+  ])
+    .then(([moduleExports]) => moduleExports);
+});
+const Article = lazy(() => {
+  return Promise.all([
+    import("./components/blog/article/article"),
+    new Promise(resolve => setTimeout(resolve, 1000))
+  ])
+    .then(([moduleExports]) => moduleExports);
+});
+const Blog = lazy(() => {
+  return Promise.all([
+    import("./pages/Blog"),
     new Promise(resolve => setTimeout(resolve, 1000))
   ])
     .then(([moduleExports]) => moduleExports);
@@ -48,7 +61,9 @@ function App() {
         <div className="layout">
           <Routes>
             <Route index element={<Home />} />
-            <Route path='/home' element={<Home />} />
+            <Route path='/Home' element={<Home />} />
+            <Route path='/Blog' element={<Blog />} />
+            <Route path='/Article/:id' element={<Article/>}/>
             <Route path='/Cygna-partenaire' element={<Cygna />} />
             <Route path='/Politique-de-confidentialité' element={<Privacy />} />
             <Route path='/Mentions-légales' element={<Legal />} />

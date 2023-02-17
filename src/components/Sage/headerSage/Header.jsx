@@ -1,7 +1,6 @@
 import React from 'react';
 import "./header.css";
-import logo from "../../assets/logoCygna.webp";
-import { Link } from 'react-router-dom'
+import logo from "../../../assets/logoCygna.webp";
 
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 import { useState } from 'react';
@@ -17,19 +16,10 @@ const Header = () => {
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu "}>
                     <ul className='nav__list'>
                         <li className='nav__item h6'>
-                            <a href="/#fondateur">
-                                Blog
-                            </a>
+                         
                         </li>
                         <li className='nav__item h6'>
-                            <a href="/#fondateur">
-                                Nos Fondateurs
-                            </a>
-                        </li>
-                        <li className='nav__item h6'>
-                            <a href="/#Expertise">
-                                Expertise
-                            </a>
+                        
                         </li>
                         <li className='nav__item h6 nav__logo_hidden' >
                             <a href="/">
@@ -37,19 +27,10 @@ const Header = () => {
                             </a>
                         </li>
                         <li className='nav__item h6'>
-                            <a href='/#about'>
-                                A Propos
-                            </a>
+                          
                         </li>
                         <li className='nav__item h6'>
-                            <a href='/#rejoindre'>
-                                nous rejoindre
-                            </a>
-                        </li>
-                        <li className='nav__item h6'>
-                            <Link to={"/Cygna-partenaire"} >
-                                SageX3
-                            </Link>
+                          
                         </li>
                     </ul>
                 </div>
