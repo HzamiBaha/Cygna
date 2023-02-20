@@ -8,7 +8,6 @@ import Footer from '../../common/footer/Footer';
 import { FacebookShareButton, LinkedinShareButton, TwitterShareButton } from 'react-share';
 import { FacebookRounded, LinkedIn, Twitter, CopyAllOutlined } from '@mui/icons-material';
 import { Helmet } from "react-helmet";
-import { color } from '@mui/system';
 
 const Paper = () => {
     const { id } = useParams()
@@ -32,7 +31,7 @@ const Paper = () => {
         <>
             <Helmet>
                 <title>{article.name}</title>
-        
+
             </Helmet>
 
 
@@ -43,7 +42,9 @@ const Paper = () => {
                 <h2 className="article-name">{article.name}</h2>
                 <p className="article-preview"> {article.preview} </p>
                 <img src={article.image} className="article-image" />
-                <div className="article-media">
+                {/**
+                * 
+                *                 <div className="article-media">
                     <div className="article-auther md">
                         <img src={avatar} alt="" className='auther-photo' />
                         <div className="auther-info">
@@ -73,6 +74,9 @@ const Paper = () => {
                         </div>
                     </div>
                 </div>
+                * 
+                */}
+
                 <div className="article-content">
                     <div className="section-left">
                         <div className="table-content">

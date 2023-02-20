@@ -2,7 +2,7 @@ export const Data = [
     {
         id: 'kjadfmlqxezl8s4d',
         name: "L'importance des ERP pour les entreprises",
-        preview: "L'ERP est un type de logiciel qui aide les entreprises à gérer leurs processus. Il intègre tous les différents services d'une entreprise, tels que la comptabilité, les ressources humaines, les ventes et la production. Bien que les logiciels ERP ne soient pas absolument nécessaires à toutes les entreprises, ils peuvent être extrêmement utiles pour les entreprises qui connaissent une croissance rapide ou dont les opérations sont complexes. Dans cet article de blog.14e2399f.webp, nous examinerons les différents avantages de l'ERP et comment il peut aider votre entreprise à fonctionner plus efficacement.",
+        preview: "L'ERP est un type de logiciel qui aide les entreprises à gérer leurs processus. Il intègre tous les différents services d'une entreprise, tels que la comptabilité, les ressources humaines, les ventes et la production. Bien que les logiciels ERP ne soient pas absolument nécessaires à toutes les entreprises, ils peuvent être extrêmement utiles pour les entreprises qui connaissent une croissance rapide ou dont les opérations sont complexes. Dans cet article de blog, nous examinerons les différents avantages de l'ERP et comment il peut aider votre entreprise à fonctionner plus efficacement.",
         image: "/blog.webp",
         sections: [
             {
@@ -56,7 +56,7 @@ export const Data = [
     {
         id: 'qg5dfsqdf52llskdfj35',
         name: "L'importance des outils innovants dans les gestion des entreprises",
-        preview: "En tant que chef d'entreprise, vous savez que pour rester en tête de la concurrence, vous devez constamment innover. Mais qu'est-ce que cela signifie pour vos outils de gestion d'entreprise ? Dans l'article de blog.14e2399f.webp d'aujourd'hui, nous allons explorer l'importance de disposer d'outils innovants pour vous aider à gérer votre entreprise de manière plus efficace et efficiente. Nous vous donnerons également quelques conseils sur la façon de choisir les outils les mieux adaptés à vos besoins. Continuez à lire pour en savoir plus !",
+        preview: "En tant que chef d'entreprise, vous savez que pour rester en tête de la concurrence, vous devez constamment innover. Mais qu'est-ce que cela signifie pour vos outils de gestion d'entreprise ? Dans l'article de blog d'aujourd'hui, nous allons explorer l'importance de disposer d'outils innovants pour vous aider à gérer votre entreprise de manière plus efficace et efficiente. Nous vous donnerons également quelques conseils sur la façon de choisir les outils les mieux adaptés à vos besoins. Continuez à lire pour en savoir plus !",
         image: "/blog-3.webp",
         sections: [
             {
