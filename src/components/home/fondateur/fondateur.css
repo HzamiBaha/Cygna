@@ -157,6 +157,7 @@
 
     .image {
         width: 40%;
+        object-fit: cover;
     }
 
     .fondateur-desc {

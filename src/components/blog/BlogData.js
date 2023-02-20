@@ -2,8 +2,8 @@ export const Data = [
     {
         id: 'kjadfmlqxezl8s4d',
         name: "L'importance des ERP pour les entreprises",
-        preview: "L'ERP est un type de logiciel qui aide les entreprises à gérer leurs processus. Il intègre tous les différents services d'une entreprise, tels que la comptabilité, les ressources humaines, les ventes et la production. Bien que les logiciels ERP ne soient pas absolument nécessaires à toutes les entreprises, ils peuvent être extrêmement utiles pour les entreprises qui connaissent une croissance rapide ou dont les opérations sont complexes. Dans cet article de blog, nous examinerons les différents avantages de l'ERP et comment il peut aider votre entreprise à fonctionner plus efficacement.",
-        image: "src/assets/blog.webp",
+        preview: "L'ERP est un type de logiciel qui aide les entreprises à gérer leurs processus. Il intègre tous les différents services d'une entreprise, tels que la comptabilité, les ressources humaines, les ventes et la production. Bien que les logiciels ERP ne soient pas absolument nécessaires à toutes les entreprises, ils peuvent être extrêmement utiles pour les entreprises qui connaissent une croissance rapide ou dont les opérations sont complexes. Dans cet article de blog.14e2399f.webp, nous examinerons les différents avantages de l'ERP et comment il peut aider votre entreprise à fonctionner plus efficacement.",
+        image: "/blog.webp",
         sections: [
             {
                 title: "l'ERP et son utilité pour les entreprises",
@@ -37,7 +37,7 @@ export const Data = [
         id: 'lsjdf68qsd4',
         name: "Sage X3 : Un ERP intelligent, souple, flexible, agile et automatisé",
         preview: "Dans le monde des affaires d'aujourd'hui, disposer d'un système ERP puissant et agile est plus important que jamais. C'est pourquoi je suis heureux de vous présenter Sage X3 - un système ERP intelligent, flexible et automatisé qui peut aider votre entreprise à rester en tête de la concurrence. Avec Sage X3, vous serez en mesure de rationaliser vos opérations, d'améliorer la prise de décision et d'obtenir des informations en temps réel sur votre entreprise. Si vous êtes à la recherche d'une solution ERP de pointe capable de faire passer votre entreprise au niveau supérieur, Sage X3 vaut vraiment la peine d'être considéré. Contactez-nous dès aujourd'hui pour en savoir plus.",
-        image: "src/assets/blog.webp",
+        image: "/blog-2.webp",
         sections: [
             {
                 title: "Comment un ERP peut aider les entreprises à gérer leurs stocks, leurs finances, etc",
@@ -56,8 +56,8 @@ export const Data = [
     {
         id: 'qg5dfsqdf52llskdfj35',
         name: "L'importance des outils innovants dans les gestion des entreprises",
-        preview: "En tant que chef d'entreprise, vous savez que pour rester en tête de la concurrence, vous devez constamment innover. Mais qu'est-ce que cela signifie pour vos outils de gestion d'entreprise ? Dans l'article de blog d'aujourd'hui, nous allons explorer l'importance de disposer d'outils innovants pour vous aider à gérer votre entreprise de manière plus efficace et efficiente. Nous vous donnerons également quelques conseils sur la façon de choisir les outils les mieux adaptés à vos besoins. Continuez à lire pour en savoir plus !",
-        image: "src/assets/blog.webp",
+        preview: "En tant que chef d'entreprise, vous savez que pour rester en tête de la concurrence, vous devez constamment innover. Mais qu'est-ce que cela signifie pour vos outils de gestion d'entreprise ? Dans l'article de blog.14e2399f.webp d'aujourd'hui, nous allons explorer l'importance de disposer d'outils innovants pour vous aider à gérer votre entreprise de manière plus efficace et efficiente. Nous vous donnerons également quelques conseils sur la façon de choisir les outils les mieux adaptés à vos besoins. Continuez à lire pour en savoir plus !",
+        image: "/blog-3.webp",
         sections: [
             {
                 title: "Les outils innovants dans la gestion d'entreprise",

@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../header/Header'
+import Header from '../../home/header/Header';
 import Footer from '../footer/Footer'
 import "./privacy.css";
 

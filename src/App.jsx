@@ -34,16 +34,18 @@ const Cygna = lazy(() => {
   ])
     .then(([moduleExports]) => moduleExports);
 });
-const Article = lazy(() => {
+
+const Blog = lazy(() => {
   return Promise.all([
-    import("./components/blog/article/article"),
+    import("./pages/Blog"),
     new Promise(resolve => setTimeout(resolve, 1000))
   ])
     .then(([moduleExports]) => moduleExports);
 });
-const Blog = lazy(() => {
+
+const Paper = lazy(() => {
   return Promise.all([
-    import("./pages/Blog"),
+    import("./components/blog/paper/Paper"),
     new Promise(resolve => setTimeout(resolve, 1000))
   ])
     .then(([moduleExports]) => moduleExports);
@@ -63,7 +65,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='/Home' element={<Home />} />
             <Route path='/Blog' element={<Blog />} />
-            <Route path='/Article/:id' element={<Article/>}/>
+            <Route path='/Article/:id' element={<Paper/>}/>
             <Route path='/Cygna-partenaire' element={<Cygna />} />
             <Route path='/Politique-de-confidentialité' element={<Privacy />} />
             <Route path='/Mentions-légales' element={<Legal />} />

@@ -99,7 +99,7 @@
 
 /* ============== BREAKPOINTS ==============*/
 /* medium devices */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     .header-lines-long {
         position: absolute;
         display: flex;
